@@ -44,7 +44,7 @@ app.post('/webhook', function(req, res) {
           }
           else if(text == "Không làm mà đòi có ăn thì sao")
           {
-            sendMessage(senderId, "Thì ăn đùi gà ăn mứt :D :D :D :D ");
+            sendMessage(senderId, "Thì ăn đùi gà ăn mứt nhé nói thế cho nó dễ :D :D :D :D ");
           }
           else if(text == "Ok" || text == "Cảm ơn")
           {
